@@ -1,0 +1,70 @@
+:root 
+{
+    --corAreia:#f5ebd8;
+    --corSol: #f6b974;
+    --corVermelha: #d65e74;
+    --corFundo:#f8f8f8;
+}
+
+body 
+{
+    background-color: var(--corFundo) !important;
+}
+
+.main 
+{
+    text-align: center;
+    font-size: 5rem;
+    font-family: 'ROBOTO';
+    text-decoration: underline;
+   
+}
+
+
+
+.nav-link:hover
+{
+    text-decoration: underline;
+    color: #f6b974 !important;
+}
+
+.navbar-brand
+{
+    color: var(--corSol) !important;
+}
+
+
+
+.text
+{
+    color: var(--corSol) !important;
+}
+
+.btn-inside
+{
+    background-color: var(--corSol) !important;
+    color: white !important;
+}
+
+.btn-outline
+{
+    color: var(--corSol) !important;
+    border-color: var(--corSol) !important;
+}
+
+.btn-sub 
+{
+    color: var(--corSol);
+}
+
+.btn-text 
+{
+    background-color: var(--corAreia) !important;
+    color:var(--corVermelha) !important;
+}
+
+footer  > p
+{
+    margin-right: 120px;
+    font-size: medium;
+}

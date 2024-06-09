@@ -1,0 +1,104 @@
+:root 
+{
+    --corAreia:#f5ebd8;
+    --corSol: #f6b974;
+    --corVermelha: #d65e74;
+    --corFundo:#f3f3f8;
+}
+
+body 
+{
+    overflow-x: hidden;
+    background-color: var(--corFundo) !important;
+}
+
+.nav-link:hover
+{
+    text-decoration: underline;
+    color: #f6b974 !important;
+}
+
+.main 
+{
+    text-align: center;
+    font-size: 5rem;
+    font-family: 'ROBOTO';
+}
+
+.main-img
+{
+  margin-top:70px ;
+  margin-left: 17.5vw;
+}
+
+.carousel-content 
+{
+    width: 55vw;
+    margin-top: 100px;
+    margin: auto;
+}
+
+.carousel-item
+{
+    height: 35rem;
+    width: 50rem;
+    
+}
+
+.container 
+{
+    
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+}
+
+
+
+.cards
+{
+   
+   margin-top: 200px;
+    
+}
+.cards h1 
+{
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 90px;
+
+}
+
+.card-center
+{
+    margin-left: 120px;
+}
+
+.container 
+{
+    margin-left: 203px;
+}
+
+.row 
+{
+    
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+.btn-peca 
+{
+    background-color: var(--corSol) !important;
+    margin-top: 160px;
+    margin-left: 33%;
+}
+
+
+.btn-compra:hover
+{
+    color: var(--corSol) !important;
+}
